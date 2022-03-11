@@ -294,8 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				656AE704276C636000BEE250 /* WAudioEngine.h */,
-				656AE705276C636000BEE250 /* WAudioEngine+Util.h */,
 				656AE706276C636000BEE250 /* WAudioEngine.m */,
+				656AE705276C636000BEE250 /* WAudioEngine+Util.h */,
 				656AE707276C636000BEE250 /* WAudioEngine+Util.m */,
 			);
 			path = WAudioEngine;
@@ -304,8 +304,8 @@
 		656AE709276C636100BEE250 /* WOpenAL */ = {
 			isa = PBXGroup;
 			children = (
-				656AE70A276C636100BEE250 /* WOpenAL.h */,
 				656AE70B276C636100BEE250 /* ALUtil.h */,
+				656AE70A276C636100BEE250 /* WOpenAL.h */,
 				656AE70C276C636100BEE250 /* WOpenAL.m */,
 			);
 			path = WOpenAL;
@@ -314,9 +314,9 @@
 		656AE70D276C636100BEE250 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				656AE710276C636100BEE250 /* NSData+AESCrypto.h */,
 				656AE70E276C636100BEE250 /* NSData+AESCrypto.m */,
 				656AE70F276C636100BEE250 /* GContentsManager.h */,
-				656AE710276C636100BEE250 /* NSData+AESCrypto.h */,
 				656AE711276C636100BEE250 /* GContentsManager.m */,
 			);
 			path = Common;
@@ -336,18 +336,18 @@
 		656AE718276C636100BEE250 /* WCoreAudio */ = {
 			isa = PBXGroup;
 			children = (
+				656AE725276C636100BEE250 /* WCoreAudio+Util.h */,
 				656AE719276C636100BEE250 /* WCoreAudio+Util.m */,
-				656AE71A276C636100BEE250 /* CAStyle */,
 				656AE71D276C636100BEE250 /* WCoreAudioH.h */,
+				656AE740276C636100BEE250 /* WCoreAudio.h */,
 				656AE71E276C636100BEE250 /* WCoreAudio.m */,
+				656AE71A276C636100BEE250 /* CAStyle */,
 				656AE71F276C636100BEE250 /* CAConfig */,
 				656AE722276C636100BEE250 /* CAFile */,
-				656AE725276C636100BEE250 /* WCoreAudio+Util.h */,
 				656AE726276C636100BEE250 /* CAFilter */,
 				656AE72B276C636100BEE250 /* Download */,
 				656AE72E276C636100BEE250 /* CAUnit */,
 				656AE73D276C636100BEE250 /* CASound */,
-				656AE740276C636100BEE250 /* WCoreAudio.h */,
 			);
 			path = WCoreAudio;
 			sourceTree = "<group>";
@@ -355,8 +355,8 @@
 		656AE71A276C636100BEE250 /* CAStyle */ = {
 			isa = PBXGroup;
 			children = (
-				656AE71B276C636100BEE250 /* EQStyle.m */,
 				656AE71C276C636100BEE250 /* EQStyle.h */,
+				656AE71B276C636100BEE250 /* EQStyle.m */,
 			);
 			path = CAStyle;
 			sourceTree = "<group>";
@@ -364,8 +364,8 @@
 		656AE71F276C636100BEE250 /* CAConfig */ = {
 			isa = PBXGroup;
 			children = (
-				656AE720276C636100BEE250 /* CAConfig.m */,
 				656AE721276C636100BEE250 /* CAConfig.h */,
+				656AE720276C636100BEE250 /* CAConfig.m */,
 			);
 			path = CAConfig;
 			sourceTree = "<group>";
@@ -382,9 +382,9 @@
 		656AE726276C636100BEE250 /* CAFilter */ = {
 			isa = PBXGroup;
 			children = (
-				656AE727276C636100BEE250 /* CAFilterManager.h */,
 				656AE728276C636100BEE250 /* CAFilter.h */,
 				656AE729276C636100BEE250 /* CAFilter.m */,
+				656AE727276C636100BEE250 /* CAFilterManager.h */,
 				656AE72A276C636100BEE250 /* CAFilterManager.m */,
 			);
 			path = CAFilter;
@@ -402,20 +402,20 @@
 		656AE72E276C636100BEE250 /* CAUnit */ = {
 			isa = PBXGroup;
 			children = (
-				656AE72F276C636100BEE250 /* CAParser.m */,
-				656AE730276C636100BEE250 /* CAConverter.m */,
 				656AE731276C636100BEE250 /* CAUnit.h */,
 				656AE732276C636100BEE250 /* CAUtils.h */,
+				656AE73C276C636100BEE250 /* CAUtils.c */,
 				656AE733276C636100BEE250 /* CARemoteIO.h */,
+				656AE73B276C636100BEE250 /* CARemoteIO.m */,
 				656AE734276C636100BEE250 /* CABuffer.h */,
+				656AE739276C636100BEE250 /* CABuffer.m */,
 				656AE735276C636100BEE250 /* CADebug.h */,
+				656AE73A276C636100BEE250 /* CADebug.m */,
 				656AE736276C636100BEE250 /* CAConverterUnit.h */,
 				656AE737276C636100BEE250 /* CAConverter.h */,
+				656AE730276C636100BEE250 /* CAConverter.m */,
 				656AE738276C636100BEE250 /* CAParser.h */,
-				656AE739276C636100BEE250 /* CABuffer.m */,
-				656AE73A276C636100BEE250 /* CADebug.m */,
-				656AE73B276C636100BEE250 /* CARemoteIO.m */,
-				656AE73C276C636100BEE250 /* CAUtils.c */,
+				656AE72F276C636100BEE250 /* CAParser.m */,
 			);
 			path = CAUnit;
 			sourceTree = "<group>";
