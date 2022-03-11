@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656AE6FC276C633B00BEE250 /* WPlayerSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE6FB276C633B00BEE250 /* WPlayerSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656AE741276C636100BEE250 /* WAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE704276C636000BEE250 /* WAudioEngine.h */; };
+		656AE742276C636100BEE250 /* WAudioEngine+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE705276C636000BEE250 /* WAudioEngine+Util.h */; };
+		656AE743276C636100BEE250 /* WAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE706276C636000BEE250 /* WAudioEngine.m */; };
+		656AE744276C636100BEE250 /* WAudioEngine+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE707276C636000BEE250 /* WAudioEngine+Util.m */; };
+		656AE745276C636100BEE250 /* WPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE708276C636100BEE250 /* WPlayer.m */; };
+		656AE746276C636100BEE250 /* WOpenAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70A276C636100BEE250 /* WOpenAL.h */; };
+		656AE747276C636100BEE250 /* ALUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70B276C636100BEE250 /* ALUtil.h */; };
+		656AE748276C636100BEE250 /* WOpenAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70C276C636100BEE250 /* WOpenAL.m */; };
+		656AE749276C636100BEE250 /* NSData+AESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70E276C636100BEE250 /* NSData+AESCrypto.m */; };
+		656AE74A276C636100BEE250 /* GContentsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70F276C636100BEE250 /* GContentsManager.h */; };
+		656AE74B276C636100BEE250 /* NSData+AESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE710276C636100BEE250 /* NSData+AESCrypto.h */; };
+		656AE74C276C636100BEE250 /* GContentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE711276C636100BEE250 /* GContentsManager.m */; };
+		656AE74D276C636100BEE250 /* WAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE713276C636100BEE250 /* WAVPlayer.h */; };
+		656AE74E276C636100BEE250 /* WAVPlayer+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE714276C636100BEE250 /* WAVPlayer+Util.m */; };
+		656AE74F276C636100BEE250 /* WAVPlayer+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE715276C636100BEE250 /* WAVPlayer+Util.h */; };
+		656AE750276C636100BEE250 /* WAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE716276C636100BEE250 /* WAVPlayer.m */; };
+		656AE751276C636100BEE250 /* WPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE717276C636100BEE250 /* WPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656AE752276C636100BEE250 /* WCoreAudio+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE719276C636100BEE250 /* WCoreAudio+Util.m */; };
+		656AE753276C636100BEE250 /* EQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71B276C636100BEE250 /* EQStyle.m */; };
+		656AE754276C636100BEE250 /* EQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71C276C636100BEE250 /* EQStyle.h */; };
+		656AE755276C636100BEE250 /* WCoreAudioH.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71D276C636100BEE250 /* WCoreAudioH.h */; };
+		656AE756276C636100BEE250 /* WCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71E276C636100BEE250 /* WCoreAudio.m */; };
+		656AE757276C636100BEE250 /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE720276C636100BEE250 /* CAConfig.m */; };
+		656AE758276C636100BEE250 /* CAConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE721276C636100BEE250 /* CAConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656AE759276C636100BEE250 /* CAFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE723276C636100BEE250 /* CAFile.h */; };
+		656AE75A276C636100BEE250 /* CAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE724276C636100BEE250 /* CAFile.m */; };
+		656AE75B276C636100BEE250 /* WCoreAudio+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE725276C636100BEE250 /* WCoreAudio+Util.h */; };
+		656AE75C276C636100BEE250 /* CAFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE727276C636100BEE250 /* CAFilterManager.h */; };
+		656AE75D276C636100BEE250 /* CAFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE728276C636100BEE250 /* CAFilter.h */; };
+		656AE75E276C636100BEE250 /* CAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE729276C636100BEE250 /* CAFilter.m */; };
+		656AE75F276C636100BEE250 /* CAFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72A276C636100BEE250 /* CAFilterManager.m */; };
+		656AE760276C636100BEE250 /* CADownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE72C276C636100BEE250 /* CADownload.h */; };
+		656AE761276C636100BEE250 /* CADownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72D276C636100BEE250 /* CADownload.m */; };
+		656AE762276C636100BEE250 /* CAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72F276C636100BEE250 /* CAParser.m */; };
+		656AE763276C636100BEE250 /* CAConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE730276C636100BEE250 /* CAConverter.m */; };
+		656AE764276C636100BEE250 /* CAUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE731276C636100BEE250 /* CAUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656AE765276C636100BEE250 /* CAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE732276C636100BEE250 /* CAUtils.h */; };
+		656AE766276C636100BEE250 /* CARemoteIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE733276C636100BEE250 /* CARemoteIO.h */; };
+		656AE767276C636100BEE250 /* CABuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE734276C636100BEE250 /* CABuffer.h */; };
+		656AE768276C636100BEE250 /* CADebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE735276C636100BEE250 /* CADebug.h */; };
+		656AE769276C636100BEE250 /* CAConverterUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE736276C636100BEE250 /* CAConverterUnit.h */; };
+		656AE76A276C636100BEE250 /* CAConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE737276C636100BEE250 /* CAConverter.h */; };
+		656AE76B276C636100BEE250 /* CAParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE738276C636100BEE250 /* CAParser.h */; };
+		656AE76C276C636100BEE250 /* CABuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE739276C636100BEE250 /* CABuffer.m */; };
+		656AE76D276C636100BEE250 /* CADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73A276C636100BEE250 /* CADebug.m */; };
+		656AE76E276C636100BEE250 /* CARemoteIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73B276C636100BEE250 /* CARemoteIO.m */; };
+		656AE76F276C636100BEE250 /* CAUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73C276C636100BEE250 /* CAUtils.c */; };
+		656AE770276C636100BEE250 /* CASound.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE73E276C636100BEE250 /* CASound.h */; };
+		656AE771276C636100BEE250 /* CASound.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73F276C636100BEE250 /* CASound.m */; };
+		656AE772276C636100BEE250 /* WCoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE740276C636100BEE250 /* WCoreAudio.h */; };
+		656AE808276C7E7B00BEE250 /* WPlayerSDK_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE807276C7E7B00BEE250 /* WPlayerSDK_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656AE82C276C833A00BEE250 /* WPlayerSDK_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE82A276C82E600BEE250 /* WPlayerSDK_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D0C276C852600EA4F9B /* WPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE717276C636100BEE250 /* WPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D0D276C852600EA4F9B /* WAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE704276C636000BEE250 /* WAudioEngine.h */; };
+		65A87D0E276C852600EA4F9B /* WAudioEngine+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE705276C636000BEE250 /* WAudioEngine+Util.h */; };
+		65A87D0F276C852600EA4F9B /* WOpenAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70A276C636100BEE250 /* WOpenAL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D10276C852600EA4F9B /* ALUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70B276C636100BEE250 /* ALUtil.h */; };
+		65A87D11276C852600EA4F9B /* GContentsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70F276C636100BEE250 /* GContentsManager.h */; };
+		65A87D12276C852600EA4F9B /* NSData+AESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE710276C636100BEE250 /* NSData+AESCrypto.h */; };
+		65A87D13276C852600EA4F9B /* WAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE713276C636100BEE250 /* WAVPlayer.h */; };
+		65A87D14276C852600EA4F9B /* WAVPlayer+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE715276C636100BEE250 /* WAVPlayer+Util.h */; };
+		65A87D15276C852600EA4F9B /* EQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71C276C636100BEE250 /* EQStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D16276C852600EA4F9B /* WCoreAudioH.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71D276C636100BEE250 /* WCoreAudioH.h */; };
+		65A87D17276C852600EA4F9B /* CAConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE721276C636100BEE250 /* CAConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D18276C852700EA4F9B /* CAFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE723276C636100BEE250 /* CAFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D19276C852700EA4F9B /* WCoreAudio+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE725276C636100BEE250 /* WCoreAudio+Util.h */; };
+		65A87D1A276C852700EA4F9B /* CAFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE727276C636100BEE250 /* CAFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D1B276C852700EA4F9B /* CAFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE728276C636100BEE250 /* CAFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D1C276C852700EA4F9B /* CADownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE72C276C636100BEE250 /* CADownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D1D276C852700EA4F9B /* CAUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE731276C636100BEE250 /* CAUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D1E276C852700EA4F9B /* CAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE732276C636100BEE250 /* CAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D1F276C852700EA4F9B /* CARemoteIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE733276C636100BEE250 /* CARemoteIO.h */; };
+		65A87D20276C852700EA4F9B /* CABuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE734276C636100BEE250 /* CABuffer.h */; };
+		65A87D21276C852700EA4F9B /* CADebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE735276C636100BEE250 /* CADebug.h */; };
+		65A87D22276C852700EA4F9B /* CAConverterUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE736276C636100BEE250 /* CAConverterUnit.h */; };
+		65A87D23276C852700EA4F9B /* CAConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE737276C636100BEE250 /* CAConverter.h */; };
+		65A87D24276C852700EA4F9B /* CAParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE738276C636100BEE250 /* CAParser.h */; };
+		65A87D25276C852700EA4F9B /* CASound.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE73E276C636100BEE250 /* CASound.h */; };
+		65A87D26276C852700EA4F9B /* WCoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE740276C636100BEE250 /* WCoreAudio.h */; };
+		65A87D27276C85EE00EA4F9B /* WPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE717276C636100BEE250 /* WPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D28276C85EF00EA4F9B /* WAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE704276C636000BEE250 /* WAudioEngine.h */; };
+		65A87D29276C85EF00EA4F9B /* WAudioEngine+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE705276C636000BEE250 /* WAudioEngine+Util.h */; };
+		65A87D2A276C85EF00EA4F9B /* WOpenAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70A276C636100BEE250 /* WOpenAL.h */; };
+		65A87D2B276C85EF00EA4F9B /* ALUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70B276C636100BEE250 /* ALUtil.h */; };
+		65A87D2C276C85EF00EA4F9B /* GContentsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE70F276C636100BEE250 /* GContentsManager.h */; };
+		65A87D2D276C85EF00EA4F9B /* NSData+AESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE710276C636100BEE250 /* NSData+AESCrypto.h */; };
+		65A87D2E276C85EF00EA4F9B /* WAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE713276C636100BEE250 /* WAVPlayer.h */; };
+		65A87D2F276C85EF00EA4F9B /* WAVPlayer+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE715276C636100BEE250 /* WAVPlayer+Util.h */; };
+		65A87D30276C85F000EA4F9B /* EQStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71C276C636100BEE250 /* EQStyle.h */; };
+		65A87D31276C85F000EA4F9B /* WCoreAudioH.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE71D276C636100BEE250 /* WCoreAudioH.h */; };
+		65A87D32276C85F000EA4F9B /* CAConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE721276C636100BEE250 /* CAConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D33276C85F000EA4F9B /* CAFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE723276C636100BEE250 /* CAFile.h */; };
+		65A87D34276C85F000EA4F9B /* WCoreAudio+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE725276C636100BEE250 /* WCoreAudio+Util.h */; };
+		65A87D35276C85F000EA4F9B /* CAFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE727276C636100BEE250 /* CAFilterManager.h */; };
+		65A87D36276C85F000EA4F9B /* CAFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE728276C636100BEE250 /* CAFilter.h */; };
+		65A87D37276C85F100EA4F9B /* CADownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE72C276C636100BEE250 /* CADownload.h */; };
+		65A87D38276C85F100EA4F9B /* CAUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE731276C636100BEE250 /* CAUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A87D39276C85F100EA4F9B /* CAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE732276C636100BEE250 /* CAUtils.h */; };
+		65A87D3A276C85F100EA4F9B /* CARemoteIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE733276C636100BEE250 /* CARemoteIO.h */; };
+		65A87D3B276C85F100EA4F9B /* CABuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE734276C636100BEE250 /* CABuffer.h */; };
+		65A87D3C276C85F100EA4F9B /* CADebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE735276C636100BEE250 /* CADebug.h */; };
+		65A87D3D276C85F100EA4F9B /* CAConverterUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE736276C636100BEE250 /* CAConverterUnit.h */; };
+		65A87D3E276C85F100EA4F9B /* CAConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE737276C636100BEE250 /* CAConverter.h */; };
+		65A87D3F276C85F200EA4F9B /* CAParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE738276C636100BEE250 /* CAParser.h */; };
+		65A87D40276C85F200EA4F9B /* CASound.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE73E276C636100BEE250 /* CASound.h */; };
+		65A87D41276C85F200EA4F9B /* WCoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 656AE740276C636100BEE250 /* WCoreAudio.h */; };
+		65A87D42276C86A600EA4F9B /* WPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE708276C636100BEE250 /* WPlayer.m */; };
+		65A87D43276C86A700EA4F9B /* WPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE708276C636100BEE250 /* WPlayer.m */; };
+		65A87D44276C86CC00EA4F9B /* WAudioEngine+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE707276C636000BEE250 /* WAudioEngine+Util.m */; };
+		65A87D45276C86CC00EA4F9B /* NSData+AESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70E276C636100BEE250 /* NSData+AESCrypto.m */; };
+		65A87D46276C86CC00EA4F9B /* WAVPlayer+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE714276C636100BEE250 /* WAVPlayer+Util.m */; };
+		65A87D47276C86CC00EA4F9B /* WCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71E276C636100BEE250 /* WCoreAudio.m */; };
+		65A87D48276C86CC00EA4F9B /* WCoreAudio+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE719276C636100BEE250 /* WCoreAudio+Util.m */; };
+		65A87D49276C86CC00EA4F9B /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE720276C636100BEE250 /* CAConfig.m */; };
+		65A87D4A276C86CC00EA4F9B /* CAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE724276C636100BEE250 /* CAFile.m */; };
+		65A87D4B276C86CC00EA4F9B /* CAConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE730276C636100BEE250 /* CAConverter.m */; };
+		65A87D4C276C86CC00EA4F9B /* WAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE706276C636000BEE250 /* WAudioEngine.m */; };
+		65A87D4D276C86CC00EA4F9B /* CADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73A276C636100BEE250 /* CADebug.m */; };
+		65A87D4E276C86CC00EA4F9B /* EQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71B276C636100BEE250 /* EQStyle.m */; };
+		65A87D4F276C86CC00EA4F9B /* CAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE729276C636100BEE250 /* CAFilter.m */; };
+		65A87D50276C86CC00EA4F9B /* CAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72F276C636100BEE250 /* CAParser.m */; };
+		65A87D51276C86CC00EA4F9B /* CARemoteIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73B276C636100BEE250 /* CARemoteIO.m */; };
+		65A87D52276C86CC00EA4F9B /* GContentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE711276C636100BEE250 /* GContentsManager.m */; };
+		65A87D53276C86CC00EA4F9B /* CABuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE739276C636100BEE250 /* CABuffer.m */; };
+		65A87D54276C86CD00EA4F9B /* CADownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72D276C636100BEE250 /* CADownload.m */; };
+		65A87D55276C86CD00EA4F9B /* CAFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72A276C636100BEE250 /* CAFilterManager.m */; };
+		65A87D56276C86CD00EA4F9B /* WAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE716276C636100BEE250 /* WAVPlayer.m */; };
+		65A87D57276C86CD00EA4F9B /* WOpenAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70C276C636100BEE250 /* WOpenAL.m */; };
+		65A87D58276C86CD00EA4F9B /* CASound.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73F276C636100BEE250 /* CASound.m */; };
+		65A87D59276C86CD00EA4F9B /* WAudioEngine+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE707276C636000BEE250 /* WAudioEngine+Util.m */; };
+		65A87D5A276C86CD00EA4F9B /* NSData+AESCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70E276C636100BEE250 /* NSData+AESCrypto.m */; };
+		65A87D5B276C86CD00EA4F9B /* WAVPlayer+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE714276C636100BEE250 /* WAVPlayer+Util.m */; };
+		65A87D5C276C86CD00EA4F9B /* WCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71E276C636100BEE250 /* WCoreAudio.m */; };
+		65A87D5D276C86CD00EA4F9B /* WCoreAudio+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE719276C636100BEE250 /* WCoreAudio+Util.m */; };
+		65A87D5E276C86CD00EA4F9B /* CAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE720276C636100BEE250 /* CAConfig.m */; };
+		65A87D5F276C86CD00EA4F9B /* CAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE724276C636100BEE250 /* CAFile.m */; };
+		65A87D60276C86CD00EA4F9B /* CAConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE730276C636100BEE250 /* CAConverter.m */; };
+		65A87D61276C86CD00EA4F9B /* WAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE706276C636000BEE250 /* WAudioEngine.m */; };
+		65A87D62276C86CD00EA4F9B /* CADebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73A276C636100BEE250 /* CADebug.m */; };
+		65A87D63276C86CD00EA4F9B /* EQStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE71B276C636100BEE250 /* EQStyle.m */; };
+		65A87D64276C86CD00EA4F9B /* CAFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE729276C636100BEE250 /* CAFilter.m */; };
+		65A87D65276C86CD00EA4F9B /* CAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72F276C636100BEE250 /* CAParser.m */; };
+		65A87D66276C86CD00EA4F9B /* CARemoteIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73B276C636100BEE250 /* CARemoteIO.m */; };
+		65A87D67276C86CD00EA4F9B /* GContentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE711276C636100BEE250 /* GContentsManager.m */; };
+		65A87D68276C86CD00EA4F9B /* CABuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE739276C636100BEE250 /* CABuffer.m */; };
+		65A87D69276C86CD00EA4F9B /* CADownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72D276C636100BEE250 /* CADownload.m */; };
+		65A87D6A276C86CD00EA4F9B /* CAFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE72A276C636100BEE250 /* CAFilterManager.m */; };
+		65A87D6B276C86CD00EA4F9B /* WAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE716276C636100BEE250 /* WAVPlayer.m */; };
+		65A87D6C276C86CE00EA4F9B /* WOpenAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE70C276C636100BEE250 /* WOpenAL.m */; };
+		65A87D6D276C86CE00EA4F9B /* CASound.m in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73F276C636100BEE250 /* CASound.m */; };
+		65A87D6E276C86D500EA4F9B /* CAUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73C276C636100BEE250 /* CAUtils.c */; };
+		65A87D6F276C86D600EA4F9B /* CAUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 656AE73C276C636100BEE250 /* CAUtils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		656AE6F8276C633B00BEE250 /* WPlayerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPlayerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AE6FB276C633B00BEE250 /* WPlayerSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPlayerSDK.h; sourceTree = "<group>"; };
+		656AE704276C636000BEE250 /* WAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAudioEngine.h; sourceTree = "<group>"; };
+		656AE705276C636000BEE250 /* WAudioEngine+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WAudioEngine+Util.h"; sourceTree = "<group>"; };
+		656AE706276C636000BEE250 /* WAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAudioEngine.m; sourceTree = "<group>"; };
+		656AE707276C636000BEE250 /* WAudioEngine+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WAudioEngine+Util.m"; sourceTree = "<group>"; };
+		656AE708276C636100BEE250 /* WPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPlayer.m; sourceTree = "<group>"; };
+		656AE70A276C636100BEE250 /* WOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOpenAL.h; sourceTree = "<group>"; };
+		656AE70B276C636100BEE250 /* ALUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALUtil.h; sourceTree = "<group>"; };
+		656AE70C276C636100BEE250 /* WOpenAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOpenAL.m; sourceTree = "<group>"; };
+		656AE70E276C636100BEE250 /* NSData+AESCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypto.m"; sourceTree = "<group>"; };
+		656AE70F276C636100BEE250 /* GContentsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GContentsManager.h; sourceTree = "<group>"; };
+		656AE710276C636100BEE250 /* NSData+AESCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypto.h"; sourceTree = "<group>"; };
+		656AE711276C636100BEE250 /* GContentsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GContentsManager.m; sourceTree = "<group>"; };
+		656AE713276C636100BEE250 /* WAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAVPlayer.h; sourceTree = "<group>"; };
+		656AE714276C636100BEE250 /* WAVPlayer+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WAVPlayer+Util.m"; sourceTree = "<group>"; };
+		656AE715276C636100BEE250 /* WAVPlayer+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WAVPlayer+Util.h"; sourceTree = "<group>"; };
+		656AE716276C636100BEE250 /* WAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAVPlayer.m; sourceTree = "<group>"; };
+		656AE717276C636100BEE250 /* WPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPlayer.h; sourceTree = "<group>"; };
+		656AE719276C636100BEE250 /* WCoreAudio+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WCoreAudio+Util.m"; sourceTree = "<group>"; };
+		656AE71B276C636100BEE250 /* EQStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQStyle.m; sourceTree = "<group>"; };
+		656AE71C276C636100BEE250 /* EQStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQStyle.h; sourceTree = "<group>"; };
+		656AE71D276C636100BEE250 /* WCoreAudioH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCoreAudioH.h; sourceTree = "<group>"; };
+		656AE71E276C636100BEE250 /* WCoreAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCoreAudio.m; sourceTree = "<group>"; };
+		656AE720276C636100BEE250 /* CAConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAConfig.m; sourceTree = "<group>"; };
+		656AE721276C636100BEE250 /* CAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAConfig.h; sourceTree = "<group>"; };
+		656AE723276C636100BEE250 /* CAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFile.h; sourceTree = "<group>"; };
+		656AE724276C636100BEE250 /* CAFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAFile.m; sourceTree = "<group>"; };
+		656AE725276C636100BEE250 /* WCoreAudio+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCoreAudio+Util.h"; sourceTree = "<group>"; };
+		656AE727276C636100BEE250 /* CAFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFilterManager.h; sourceTree = "<group>"; };
+		656AE728276C636100BEE250 /* CAFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFilter.h; sourceTree = "<group>"; };
+		656AE729276C636100BEE250 /* CAFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAFilter.m; sourceTree = "<group>"; };
+		656AE72A276C636100BEE250 /* CAFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAFilterManager.m; sourceTree = "<group>"; };
+		656AE72C276C636100BEE250 /* CADownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADownload.h; sourceTree = "<group>"; };
+		656AE72D276C636100BEE250 /* CADownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADownload.m; sourceTree = "<group>"; };
+		656AE72F276C636100BEE250 /* CAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAParser.m; sourceTree = "<group>"; };
+		656AE730276C636100BEE250 /* CAConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAConverter.m; sourceTree = "<group>"; };
+		656AE731276C636100BEE250 /* CAUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAUnit.h; sourceTree = "<group>"; };
+		656AE732276C636100BEE250 /* CAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAUtils.h; sourceTree = "<group>"; };
+		656AE733276C636100BEE250 /* CARemoteIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARemoteIO.h; sourceTree = "<group>"; };
+		656AE734276C636100BEE250 /* CABuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABuffer.h; sourceTree = "<group>"; };
+		656AE735276C636100BEE250 /* CADebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebug.h; sourceTree = "<group>"; };
+		656AE736276C636100BEE250 /* CAConverterUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAConverterUnit.h; sourceTree = "<group>"; };
+		656AE737276C636100BEE250 /* CAConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAConverter.h; sourceTree = "<group>"; };
+		656AE738276C636100BEE250 /* CAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAParser.h; sourceTree = "<group>"; };
+		656AE739276C636100BEE250 /* CABuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABuffer.m; sourceTree = "<group>"; };
+		656AE73A276C636100BEE250 /* CADebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADebug.m; sourceTree = "<group>"; };
+		656AE73B276C636100BEE250 /* CARemoteIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARemoteIO.m; sourceTree = "<group>"; };
+		656AE73C276C636100BEE250 /* CAUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CAUtils.c; sourceTree = "<group>"; };
+		656AE73E276C636100BEE250 /* CASound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASound.h; sourceTree = "<group>"; };
+		656AE73F276C636100BEE250 /* CASound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASound.m; sourceTree = "<group>"; };
+		656AE740276C636100BEE250 /* WCoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCoreAudio.h; sourceTree = "<group>"; };
+		656AE7F9276C7E6500BEE250 /* WPlayerSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPlayerSDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AE805276C7E7B00BEE250 /* WPlayerSDK_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPlayerSDK_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656AE807276C7E7B00BEE250 /* WPlayerSDK_MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPlayerSDK_MacOS.h; sourceTree = "<group>"; };
+		656AE82A276C82E600BEE250 /* WPlayerSDK_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPlayerSDK_iOS.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656AE6F5276C633B00BEE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE7F6276C7E6500BEE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE802276C7E7B00BEE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656AE6EE276C633B00BEE250 = {
+			isa = PBXGroup;
+			children = (
+				656AE702276C636000BEE250 /* WPlayer */,
+				656AE6FA276C633B00BEE250 /* WPlayerSDK */,
+				656AE829276C82E600BEE250 /* WPlayerSDK_iOS */,
+				656AE806276C7E7B00BEE250 /* WPlayerSDK_MacOS */,
+				656AE6F9276C633B00BEE250 /* Products */,
+				656AE79F276C6F0800BEE250 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		656AE6F9276C633B00BEE250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656AE6F8276C633B00BEE250 /* WPlayerSDK.framework */,
+				656AE7F9276C7E6500BEE250 /* WPlayerSDK_iOS.framework */,
+				656AE805276C7E7B00BEE250 /* WPlayerSDK_MacOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656AE6FA276C633B00BEE250 /* WPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				656AE6FB276C633B00BEE250 /* WPlayerSDK.h */,
+			);
+			path = WPlayerSDK;
+			sourceTree = "<group>";
+		};
+		656AE702276C636000BEE250 /* WPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				656AE717276C636100BEE250 /* WPlayer.h */,
+				656AE708276C636100BEE250 /* WPlayer.m */,
+				656AE703276C636000BEE250 /* WAudioEngine */,
+				656AE709276C636100BEE250 /* WOpenAL */,
+				656AE70D276C636100BEE250 /* Common */,
+				656AE712276C636100BEE250 /* WAVPlayer */,
+				656AE718276C636100BEE250 /* WCoreAudio */,
+			);
+			path = WPlayer;
+			sourceTree = "<group>";
+		};
+		656AE703276C636000BEE250 /* WAudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				656AE704276C636000BEE250 /* WAudioEngine.h */,
+				656AE705276C636000BEE250 /* WAudioEngine+Util.h */,
+				656AE706276C636000BEE250 /* WAudioEngine.m */,
+				656AE707276C636000BEE250 /* WAudioEngine+Util.m */,
+			);
+			path = WAudioEngine;
+			sourceTree = "<group>";
+		};
+		656AE709276C636100BEE250 /* WOpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				656AE70A276C636100BEE250 /* WOpenAL.h */,
+				656AE70B276C636100BEE250 /* ALUtil.h */,
+				656AE70C276C636100BEE250 /* WOpenAL.m */,
+			);
+			path = WOpenAL;
+			sourceTree = "<group>";
+		};
+		656AE70D276C636100BEE250 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				656AE70E276C636100BEE250 /* NSData+AESCrypto.m */,
+				656AE70F276C636100BEE250 /* GContentsManager.h */,
+				656AE710276C636100BEE250 /* NSData+AESCrypto.h */,
+				656AE711276C636100BEE250 /* GContentsManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		656AE712276C636100BEE250 /* WAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				656AE713276C636100BEE250 /* WAVPlayer.h */,
+				656AE714276C636100BEE250 /* WAVPlayer+Util.m */,
+				656AE715276C636100BEE250 /* WAVPlayer+Util.h */,
+				656AE716276C636100BEE250 /* WAVPlayer.m */,
+			);
+			path = WAVPlayer;
+			sourceTree = "<group>";
+		};
+		656AE718276C636100BEE250 /* WCoreAudio */ = {
+			isa = PBXGroup;
+			children = (
+				656AE719276C636100BEE250 /* WCoreAudio+Util.m */,
+				656AE71A276C636100BEE250 /* CAStyle */,
+				656AE71D276C636100BEE250 /* WCoreAudioH.h */,
+				656AE71E276C636100BEE250 /* WCoreAudio.m */,
+				656AE71F276C636100BEE250 /* CAConfig */,
+				656AE722276C636100BEE250 /* CAFile */,
+				656AE725276C636100BEE250 /* WCoreAudio+Util.h */,
+				656AE726276C636100BEE250 /* CAFilter */,
+				656AE72B276C636100BEE250 /* Download */,
+				656AE72E276C636100BEE250 /* CAUnit */,
+				656AE73D276C636100BEE250 /* CASound */,
+				656AE740276C636100BEE250 /* WCoreAudio.h */,
+			);
+			path = WCoreAudio;
+			sourceTree = "<group>";
+		};
+		656AE71A276C636100BEE250 /* CAStyle */ = {
+			isa = PBXGroup;
+			children = (
+				656AE71B276C636100BEE250 /* EQStyle.m */,
+				656AE71C276C636100BEE250 /* EQStyle.h */,
+			);
+			path = CAStyle;
+			sourceTree = "<group>";
+		};
+		656AE71F276C636100BEE250 /* CAConfig */ = {
+			isa = PBXGroup;
+			children = (
+				656AE720276C636100BEE250 /* CAConfig.m */,
+				656AE721276C636100BEE250 /* CAConfig.h */,
+			);
+			path = CAConfig;
+			sourceTree = "<group>";
+		};
+		656AE722276C636100BEE250 /* CAFile */ = {
+			isa = PBXGroup;
+			children = (
+				656AE723276C636100BEE250 /* CAFile.h */,
+				656AE724276C636100BEE250 /* CAFile.m */,
+			);
+			path = CAFile;
+			sourceTree = "<group>";
+		};
+		656AE726276C636100BEE250 /* CAFilter */ = {
+			isa = PBXGroup;
+			children = (
+				656AE727276C636100BEE250 /* CAFilterManager.h */,
+				656AE728276C636100BEE250 /* CAFilter.h */,
+				656AE729276C636100BEE250 /* CAFilter.m */,
+				656AE72A276C636100BEE250 /* CAFilterManager.m */,
+			);
+			path = CAFilter;
+			sourceTree = "<group>";
+		};
+		656AE72B276C636100BEE250 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				656AE72C276C636100BEE250 /* CADownload.h */,
+				656AE72D276C636100BEE250 /* CADownload.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		656AE72E276C636100BEE250 /* CAUnit */ = {
+			isa = PBXGroup;
+			children = (
+				656AE72F276C636100BEE250 /* CAParser.m */,
+				656AE730276C636100BEE250 /* CAConverter.m */,
+				656AE731276C636100BEE250 /* CAUnit.h */,
+				656AE732276C636100BEE250 /* CAUtils.h */,
+				656AE733276C636100BEE250 /* CARemoteIO.h */,
+				656AE734276C636100BEE250 /* CABuffer.h */,
+				656AE735276C636100BEE250 /* CADebug.h */,
+				656AE736276C636100BEE250 /* CAConverterUnit.h */,
+				656AE737276C636100BEE250 /* CAConverter.h */,
+				656AE738276C636100BEE250 /* CAParser.h */,
+				656AE739276C636100BEE250 /* CABuffer.m */,
+				656AE73A276C636100BEE250 /* CADebug.m */,
+				656AE73B276C636100BEE250 /* CARemoteIO.m */,
+				656AE73C276C636100BEE250 /* CAUtils.c */,
+			);
+			path = CAUnit;
+			sourceTree = "<group>";
+		};
+		656AE73D276C636100BEE250 /* CASound */ = {
+			isa = PBXGroup;
+			children = (
+				656AE73E276C636100BEE250 /* CASound.h */,
+				656AE73F276C636100BEE250 /* CASound.m */,
+			);
+			path = CASound;
+			sourceTree = "<group>";
+		};
+		656AE79F276C6F0800BEE250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		656AE806276C7E7B00BEE250 /* WPlayerSDK_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				656AE807276C7E7B00BEE250 /* WPlayerSDK_MacOS.h */,
+			);
+			path = WPlayerSDK_MacOS;
+			sourceTree = "<group>";
+		};
+		656AE829276C82E600BEE250 /* WPlayerSDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				656AE82A276C82E600BEE250 /* WPlayerSDK_iOS.h */,
+			);
+			path = WPlayerSDK_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		656AE6F3276C633B00BEE250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AE751276C636100BEE250 /* WPlayer.h in Headers */,
+				656AE6FC276C633B00BEE250 /* WPlayerSDK.h in Headers */,
+				656AE764276C636100BEE250 /* CAUnit.h in Headers */,
+				656AE758276C636100BEE250 /* CAConfig.h in Headers */,
+				656AE74A276C636100BEE250 /* GContentsManager.h in Headers */,
+				656AE768276C636100BEE250 /* CADebug.h in Headers */,
+				656AE747276C636100BEE250 /* ALUtil.h in Headers */,
+				656AE754276C636100BEE250 /* EQStyle.h in Headers */,
+				656AE74F276C636100BEE250 /* WAVPlayer+Util.h in Headers */,
+				656AE759276C636100BEE250 /* CAFile.h in Headers */,
+				656AE755276C636100BEE250 /* WCoreAudioH.h in Headers */,
+				656AE74B276C636100BEE250 /* NSData+AESCrypto.h in Headers */,
+				656AE769276C636100BEE250 /* CAConverterUnit.h in Headers */,
+				656AE770276C636100BEE250 /* CASound.h in Headers */,
+				656AE76A276C636100BEE250 /* CAConverter.h in Headers */,
+				656AE74D276C636100BEE250 /* WAVPlayer.h in Headers */,
+				656AE772276C636100BEE250 /* WCoreAudio.h in Headers */,
+				656AE765276C636100BEE250 /* CAUtils.h in Headers */,
+				656AE766276C636100BEE250 /* CARemoteIO.h in Headers */,
+				656AE75B276C636100BEE250 /* WCoreAudio+Util.h in Headers */,
+				656AE760276C636100BEE250 /* CADownload.h in Headers */,
+				656AE76B276C636100BEE250 /* CAParser.h in Headers */,
+				656AE767276C636100BEE250 /* CABuffer.h in Headers */,
+				656AE75C276C636100BEE250 /* CAFilterManager.h in Headers */,
+				656AE75D276C636100BEE250 /* CAFilter.h in Headers */,
+				656AE746276C636100BEE250 /* WOpenAL.h in Headers */,
+				656AE741276C636100BEE250 /* WAudioEngine.h in Headers */,
+				656AE742276C636100BEE250 /* WAudioEngine+Util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE7F4276C7E6500BEE250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AE82C276C833A00BEE250 /* WPlayerSDK_iOS.h in Headers */,
+				65A87D27276C85EE00EA4F9B /* WPlayer.h in Headers */,
+				65A87D38276C85F100EA4F9B /* CAUnit.h in Headers */,
+				65A87D32276C85F000EA4F9B /* CAConfig.h in Headers */,
+				65A87D28276C85EF00EA4F9B /* WAudioEngine.h in Headers */,
+				65A87D29276C85EF00EA4F9B /* WAudioEngine+Util.h in Headers */,
+				65A87D2A276C85EF00EA4F9B /* WOpenAL.h in Headers */,
+				65A87D2B276C85EF00EA4F9B /* ALUtil.h in Headers */,
+				65A87D2C276C85EF00EA4F9B /* GContentsManager.h in Headers */,
+				65A87D2D276C85EF00EA4F9B /* NSData+AESCrypto.h in Headers */,
+				65A87D2E276C85EF00EA4F9B /* WAVPlayer.h in Headers */,
+				65A87D2F276C85EF00EA4F9B /* WAVPlayer+Util.h in Headers */,
+				65A87D30276C85F000EA4F9B /* EQStyle.h in Headers */,
+				65A87D31276C85F000EA4F9B /* WCoreAudioH.h in Headers */,
+				65A87D33276C85F000EA4F9B /* CAFile.h in Headers */,
+				65A87D34276C85F000EA4F9B /* WCoreAudio+Util.h in Headers */,
+				65A87D35276C85F000EA4F9B /* CAFilterManager.h in Headers */,
+				65A87D36276C85F000EA4F9B /* CAFilter.h in Headers */,
+				65A87D37276C85F100EA4F9B /* CADownload.h in Headers */,
+				65A87D39276C85F100EA4F9B /* CAUtils.h in Headers */,
+				65A87D3A276C85F100EA4F9B /* CARemoteIO.h in Headers */,
+				65A87D3B276C85F100EA4F9B /* CABuffer.h in Headers */,
+				65A87D3C276C85F100EA4F9B /* CADebug.h in Headers */,
+				65A87D3D276C85F100EA4F9B /* CAConverterUnit.h in Headers */,
+				65A87D3E276C85F100EA4F9B /* CAConverter.h in Headers */,
+				65A87D3F276C85F200EA4F9B /* CAParser.h in Headers */,
+				65A87D40276C85F200EA4F9B /* CASound.h in Headers */,
+				65A87D41276C85F200EA4F9B /* WCoreAudio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE800276C7E7B00BEE250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AE808276C7E7B00BEE250 /* WPlayerSDK_MacOS.h in Headers */,
+				65A87D0C276C852600EA4F9B /* WPlayer.h in Headers */,
+				65A87D18276C852700EA4F9B /* CAFile.h in Headers */,
+				65A87D15276C852600EA4F9B /* EQStyle.h in Headers */,
+				65A87D1D276C852700EA4F9B /* CAUnit.h in Headers */,
+				65A87D17276C852600EA4F9B /* CAConfig.h in Headers */,
+				65A87D1A276C852700EA4F9B /* CAFilterManager.h in Headers */,
+				65A87D1C276C852700EA4F9B /* CADownload.h in Headers */,
+				65A87D0F276C852600EA4F9B /* WOpenAL.h in Headers */,
+				65A87D1B276C852700EA4F9B /* CAFilter.h in Headers */,
+				65A87D1E276C852700EA4F9B /* CAUtils.h in Headers */,
+				65A87D0D276C852600EA4F9B /* WAudioEngine.h in Headers */,
+				65A87D0E276C852600EA4F9B /* WAudioEngine+Util.h in Headers */,
+				65A87D10276C852600EA4F9B /* ALUtil.h in Headers */,
+				65A87D11276C852600EA4F9B /* GContentsManager.h in Headers */,
+				65A87D12276C852600EA4F9B /* NSData+AESCrypto.h in Headers */,
+				65A87D13276C852600EA4F9B /* WAVPlayer.h in Headers */,
+				65A87D14276C852600EA4F9B /* WAVPlayer+Util.h in Headers */,
+				65A87D16276C852600EA4F9B /* WCoreAudioH.h in Headers */,
+				65A87D19276C852700EA4F9B /* WCoreAudio+Util.h in Headers */,
+				65A87D1F276C852700EA4F9B /* CARemoteIO.h in Headers */,
+				65A87D20276C852700EA4F9B /* CABuffer.h in Headers */,
+				65A87D21276C852700EA4F9B /* CADebug.h in Headers */,
+				65A87D22276C852700EA4F9B /* CAConverterUnit.h in Headers */,
+				65A87D23276C852700EA4F9B /* CAConverter.h in Headers */,
+				65A87D24276C852700EA4F9B /* CAParser.h in Headers */,
+				65A87D25276C852700EA4F9B /* CASound.h in Headers */,
+				65A87D26276C852700EA4F9B /* WCoreAudio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		656AE6F7276C633B00BEE250 /* WPlayerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AE6FF276C633B00BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK" */;
+			buildPhases = (
+				656AE6F3276C633B00BEE250 /* Headers */,
+				656AE6F4276C633B00BEE250 /* Sources */,
+				656AE6F5276C633B00BEE250 /* Frameworks */,
+				656AE6F6276C633B00BEE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPlayerSDK;
+			productName = WPlayerSDK;
+			productReference = 656AE6F8276C633B00BEE250 /* WPlayerSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		656AE7F8276C7E6500BEE250 /* WPlayerSDK_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AE7FD276C7E6500BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK_iOS" */;
+			buildPhases = (
+				656AE7F4276C7E6500BEE250 /* Headers */,
+				656AE7F5276C7E6500BEE250 /* Sources */,
+				656AE7F6276C7E6500BEE250 /* Frameworks */,
+				656AE7F7276C7E6500BEE250 /* Resources */,
+				6532BFD927700DFD00619391 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPlayerSDK_iOS;
+			productName = WPlayerSDK_iOS;
+			productReference = 656AE7F9276C7E6500BEE250 /* WPlayerSDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		656AE804276C7E7B00BEE250 /* WPlayerSDK_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656AE809276C7E7B00BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK_MacOS" */;
+			buildPhases = (
+				656AE800276C7E7B00BEE250 /* Headers */,
+				656AE801276C7E7B00BEE250 /* Sources */,
+				656AE802276C7E7B00BEE250 /* Frameworks */,
+				656AE803276C7E7B00BEE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPlayerSDK_MacOS;
+			productName = WPlayerSDK_MacOS;
+			productReference = 656AE805276C7E7B00BEE250 /* WPlayerSDK_MacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656AE6EF276C633B00BEE250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					656AE6F7276C633B00BEE250 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					656AE7F8276C7E6500BEE250 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					656AE804276C7E7B00BEE250 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 656AE6F2276C633B00BEE250 /* Build configuration list for PBXProject "WPlayerSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656AE6EE276C633B00BEE250;
+			productRefGroup = 656AE6F9276C633B00BEE250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656AE6F7276C633B00BEE250 /* WPlayerSDK */,
+				656AE7F8276C7E6500BEE250 /* WPlayerSDK_iOS */,
+				656AE804276C7E7B00BEE250 /* WPlayerSDK_MacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656AE6F6276C633B00BEE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE7F7276C7E6500BEE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE803276C7E7B00BEE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6532BFD927700DFD00619391 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656AE6F4276C633B00BEE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656AE75A276C636100BEE250 /* CAFile.m in Sources */,
+				656AE771276C636100BEE250 /* CASound.m in Sources */,
+				656AE749276C636100BEE250 /* NSData+AESCrypto.m in Sources */,
+				656AE76E276C636100BEE250 /* CARemoteIO.m in Sources */,
+				656AE750276C636100BEE250 /* WAVPlayer.m in Sources */,
+				656AE76D276C636100BEE250 /* CADebug.m in Sources */,
+				656AE761276C636100BEE250 /* CADownload.m in Sources */,
+				656AE74C276C636100BEE250 /* GContentsManager.m in Sources */,
+				656AE75F276C636100BEE250 /* CAFilterManager.m in Sources */,
+				656AE757276C636100BEE250 /* CAConfig.m in Sources */,
+				656AE76F276C636100BEE250 /* CAUtils.c in Sources */,
+				656AE74E276C636100BEE250 /* WAVPlayer+Util.m in Sources */,
+				656AE745276C636100BEE250 /* WPlayer.m in Sources */,
+				656AE753276C636100BEE250 /* EQStyle.m in Sources */,
+				656AE752276C636100BEE250 /* WCoreAudio+Util.m in Sources */,
+				656AE75E276C636100BEE250 /* CAFilter.m in Sources */,
+				656AE756276C636100BEE250 /* WCoreAudio.m in Sources */,
+				656AE762276C636100BEE250 /* CAParser.m in Sources */,
+				656AE744276C636100BEE250 /* WAudioEngine+Util.m in Sources */,
+				656AE748276C636100BEE250 /* WOpenAL.m in Sources */,
+				656AE76C276C636100BEE250 /* CABuffer.m in Sources */,
+				656AE763276C636100BEE250 /* CAConverter.m in Sources */,
+				656AE743276C636100BEE250 /* WAudioEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE7F5276C7E6500BEE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A87D44276C86CC00EA4F9B /* WAudioEngine+Util.m in Sources */,
+				65A87D56276C86CD00EA4F9B /* WAVPlayer.m in Sources */,
+				65A87D49276C86CC00EA4F9B /* CAConfig.m in Sources */,
+				65A87D42276C86A600EA4F9B /* WPlayer.m in Sources */,
+				65A87D45276C86CC00EA4F9B /* NSData+AESCrypto.m in Sources */,
+				65A87D47276C86CC00EA4F9B /* WCoreAudio.m in Sources */,
+				65A87D4D276C86CC00EA4F9B /* CADebug.m in Sources */,
+				65A87D46276C86CC00EA4F9B /* WAVPlayer+Util.m in Sources */,
+				65A87D4E276C86CC00EA4F9B /* EQStyle.m in Sources */,
+				65A87D53276C86CC00EA4F9B /* CABuffer.m in Sources */,
+				65A87D50276C86CC00EA4F9B /* CAParser.m in Sources */,
+				65A87D4F276C86CC00EA4F9B /* CAFilter.m in Sources */,
+				65A87D48276C86CC00EA4F9B /* WCoreAudio+Util.m in Sources */,
+				65A87D4B276C86CC00EA4F9B /* CAConverter.m in Sources */,
+				65A87D54276C86CD00EA4F9B /* CADownload.m in Sources */,
+				65A87D4C276C86CC00EA4F9B /* WAudioEngine.m in Sources */,
+				65A87D6F276C86D600EA4F9B /* CAUtils.c in Sources */,
+				65A87D52276C86CC00EA4F9B /* GContentsManager.m in Sources */,
+				65A87D4A276C86CC00EA4F9B /* CAFile.m in Sources */,
+				65A87D57276C86CD00EA4F9B /* WOpenAL.m in Sources */,
+				65A87D55276C86CD00EA4F9B /* CAFilterManager.m in Sources */,
+				65A87D51276C86CC00EA4F9B /* CARemoteIO.m in Sources */,
+				65A87D58276C86CD00EA4F9B /* CASound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656AE801276C7E7B00BEE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A87D59276C86CD00EA4F9B /* WAudioEngine+Util.m in Sources */,
+				65A87D6B276C86CD00EA4F9B /* WAVPlayer.m in Sources */,
+				65A87D5E276C86CD00EA4F9B /* CAConfig.m in Sources */,
+				65A87D43276C86A700EA4F9B /* WPlayer.m in Sources */,
+				65A87D5A276C86CD00EA4F9B /* NSData+AESCrypto.m in Sources */,
+				65A87D5C276C86CD00EA4F9B /* WCoreAudio.m in Sources */,
+				65A87D62276C86CD00EA4F9B /* CADebug.m in Sources */,
+				65A87D5B276C86CD00EA4F9B /* WAVPlayer+Util.m in Sources */,
+				65A87D63276C86CD00EA4F9B /* EQStyle.m in Sources */,
+				65A87D68276C86CD00EA4F9B /* CABuffer.m in Sources */,
+				65A87D65276C86CD00EA4F9B /* CAParser.m in Sources */,
+				65A87D64276C86CD00EA4F9B /* CAFilter.m in Sources */,
+				65A87D5D276C86CD00EA4F9B /* WCoreAudio+Util.m in Sources */,
+				65A87D60276C86CD00EA4F9B /* CAConverter.m in Sources */,
+				65A87D69276C86CD00EA4F9B /* CADownload.m in Sources */,
+				65A87D61276C86CD00EA4F9B /* WAudioEngine.m in Sources */,
+				65A87D6E276C86D500EA4F9B /* CAUtils.c in Sources */,
+				65A87D67276C86CD00EA4F9B /* GContentsManager.m in Sources */,
+				65A87D5F276C86CD00EA4F9B /* CAFile.m in Sources */,
+				65A87D6C276C86CE00EA4F9B /* WOpenAL.m in Sources */,
+				65A87D6A276C86CD00EA4F9B /* CAFilterManager.m in Sources */,
+				65A87D66276C86CD00EA4F9B /* CARemoteIO.m in Sources */,
+				65A87D6D276C86CE00EA4F9B /* CASound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		656AE6FD276C633B00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		656AE6FE276C633B00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		656AE700276C633B00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wally.WPlayerSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		656AE701276C633B00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wally.WPlayerSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		656AE7FE276C7E6500BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wally.WPlayerSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		656AE7FF276C7E6500BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wally.WPlayerSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		656AE80A276C7E7B00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wally.WPlayerSDK-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		656AE80B276C7E7B00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6QE64PFLN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wally.WPlayerSDK-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656AE6F2276C633B00BEE250 /* Build configuration list for PBXProject "WPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AE6FD276C633B00BEE250 /* Debug */,
+				656AE6FE276C633B00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656AE6FF276C633B00BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AE700276C633B00BEE250 /* Debug */,
+				656AE701276C633B00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656AE7FD276C7E6500BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AE7FE276C7E6500BEE250 /* Debug */,
+				656AE7FF276C7E6500BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656AE809276C7E7B00BEE250 /* Build configuration list for PBXNativeTarget "WPlayerSDK_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AE80A276C7E7B00BEE250 /* Debug */,
+				656AE80B276C7E7B00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 656AE6EF276C633B00BEE250 /* Project object */;
+}
