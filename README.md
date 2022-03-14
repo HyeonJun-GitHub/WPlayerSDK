@@ -3,7 +3,7 @@
 
 전체OS SDK 동시배포
 
-##XCFramework 생성
+--XCFramework 생성
 on startXCFramework(path, name, type)
     set pathString to path as string
     set nameString to name as string
@@ -53,7 +53,7 @@ on startXCFramework(path, name, type)
 end startXCFramework
  
  
-##파일열기
+--파일열기
 tell application "Finder"
     activate
     set filePath to choose folder with prompt "SDK를 선택해주세요."
